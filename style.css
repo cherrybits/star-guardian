@@ -16,8 +16,19 @@
   margin: 0 60px 0 60px;
 }
 
+.footer{
+  background-color: #625c78;
+  color: white;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body{
   font-family: 'Roboto', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 a{
   color: white;
