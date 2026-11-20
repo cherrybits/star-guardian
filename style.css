@@ -37,6 +37,10 @@
 
 .about{
   margin-right: 80px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 500px;
 }
 
 .about-img{
