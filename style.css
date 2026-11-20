@@ -24,7 +24,7 @@
 
 .content-container{
   display : flex;
-  padding: 60px;
+  margin: 100px;
 }
 
 .banner{
@@ -36,12 +36,12 @@
 }
 
 .about{
-  margin-right: 24px;
+  margin-right: 80px;
 }
 
 .about-img{
-  width: 300px;
-  height: 150px;
+  width: 500px;
+  height: 250px;
   object-fit: cover;
 }
 
