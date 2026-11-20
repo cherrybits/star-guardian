@@ -1,0 +1,78 @@
+/* Spiegel Bold */
+@font-face {
+  font-family: "Spiegel";
+  src: url("../../fonts/spiegel/Spiegel-Bold.eot?#iefix");
+  src: url("../../fonts/spiegel/Spiegel-Bold.eot?#iefix") format("eot"), url("../../fonts/spiegel/Spiegel-Bold.woff") format("woff"), url("../../fonts/spiegel/Spiegel-Bold.ttf") format("truetype"), url("../../fonts/spiegel/Spiegel-Bold.svg#") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Spiegel-Bold";
+  src: url("../../fonts/spiegel/Spiegel-Bold.eot?#iefix");
+  src: url("../../fonts/spiegel/Spiegel-Bold.eot?#iefix") format("eot"), url("../../fonts/spiegel/Spiegel-Bold.woff") format("woff"), url("../../fonts/spiegel/Spiegel-Bold.ttf") format("truetype"), url("../../fonts/spiegel/Spiegel-Bold.svg#") format("svg");
+}
+/* Spiegel Bold Italic */
+@font-face {
+  font-family: "Spiegel";
+  src: url("../../fonts/spiegel/Spiegel-BoldItalic.eot?#iefix");
+  src: url("../../fonts/spiegel/Spiegel-BoldItalic.eot?#iefix") format("eot"), url("../../fonts/spiegel/Spiegel-BoldItalic.woff") format("woff"), url("../../fonts/spiegel/Spiegel-BoldItalic.ttf") format("truetype"), url("../../fonts/spiegel/Spiegel-BoldItalic.svg#") format("svg");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Spiegel-BoldItalic";
+  src: url("../../fonts/spiegel/Spiegel-BoldItalic.eot?#iefix");
+  src: url("../../fonts/spiegel/Spiegel-BoldItalic.eot?#iefix") format("eot"), url("../../fonts/spiegel/Spiegel-BoldItalic.woff") format("woff"), url("../../fonts/spiegel/Spiegel-BoldItalic.ttf") format("truetype"), url("../../fonts/spiegel/Spiegel-BoldItalic.svg#") format("svg");
+}
+/* Spiegel Regular */
+@font-face {
+  font-family: "Spiegel";
+  src: url("../../fonts/spiegel/Spiegel-Regular.eot?#iefix");
+  src: url("../../fonts/spiegel/Spiegel-Regular.eot?#iefix") format("eot"), url("../../fonts/spiegel/Spiegel-Regular.woff") format("woff"), url("../../fonts/spiegel/Spiegel-Regular.ttf") format("truetype"), url("../../fonts/spiegel/Spiegel-Regular.svg#") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Spiegel-Regular";
+  src: url("../../fonts/spiegel/Spiegel-Regular.eot?#iefix");
+  src: url("../../fonts/spiegel/Spiegel-Regular.eot?#iefix") format("eot"), url("../../fonts/spiegel/Spiegel-Regular.woff") format("woff"), url("../../fonts/spiegel/Spiegel-Regular.ttf") format("truetype"), url("../../fonts/spiegel/Spiegel-Regular.svg#") format("svg");
+}
+/* Spiegel Regular Italic */
+@font-face {
+  font-family: "Spiegel";
+  src: url("../../fonts/spiegel/Spiegel-RegularItalic.eot?#iefix");
+  src: url("../../fonts/spiegel/Spiegel-RegularItalic.eot?#iefix") format("eot"), url("../../fonts/spiegel/Spiegel-RegularItalic.woff") format("woff"), url("../../fonts/spiegel/Spiegel-RegularItalic.ttf") format("truetype"), url("../../fonts/spiegel/Spiegel-RegularItalic.svg#") format("svg");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Spiegel-RegularItalic";
+  src: url("../../fonts/spiegel/Spiegel-RegularItalic.eot?#iefix");
+  src: url("../../fonts/spiegel/Spiegel-RegularItalic.eot?#iefix") format("eot"), url("../../fonts/spiegel/Spiegel-RegularItalic.woff") format("woff"), url("../../fonts/spiegel/Spiegel-RegularItalic.ttf") format("truetype"), url("../../fonts/spiegel/Spiegel-RegularItalic.svg#") format("svg");
+}
+/* Spiegel SemiBold */
+@font-face {
+  font-family: "Spiegel";
+  src: url("../../fonts/spiegel/Spiegel-SemiBold.eot?#iefix");
+  src: url("../../fonts/spiegel/Spiegel-SemiBold.eot?#iefix") format("eot"), url("../../fonts/spiegel/Spiegel-SemiBold.woff") format("woff"), url("../../fonts/spiegel/Spiegel-SemiBold.ttf") format("truetype"), url("../../fonts/spiegel/Spiegel-SemiBold.svg#") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Spiegel-SemiBold";
+  src: url("../../fonts/spiegel/Spiegel-SemiBold.eot?#iefix");
+  src: url("../../fonts/spiegel/Spiegel-SemiBold.eot?#iefix") format("eot"), url("../../fonts/spiegel/Spiegel-SemiBold.woff") format("woff"), url("../../fonts/spiegel/Spiegel-SemiBold.ttf") format("truetype"), url("../../fonts/spiegel/Spiegel-SemiBold.svg#") format("svg");
+}
+/* Spiegel SemiBold Italic */
+@font-face {
+  font-family: "Spiegel";
+  src: url("../../fonts/spiegel/Spiegel-SemiBoldItalic.eot?#iefix");
+  src: url("../../fonts/spiegel/Spiegel-SemiBoldItalic.eot?#iefix") format("eot"), url("../../fonts/spiegel/Spiegel-SemiBoldItalic.woff") format("woff"), url("../../fonts/spiegel/Spiegel-SemiBoldItalic.ttf") format("truetype"), url("../../fonts/spiegel/Spiegel-SemiBoldItalic.svg#") format("svg");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Spiegel-SemiBoldItalic";
+  src: url("../../fonts/spiegel/Spiegel-SemiBoldItalic.eot?#iefix");
+  src: url("../../fonts/spiegel/Spiegel-SemiBoldItalic.eot?#iefix") format("eot"), url("../../fonts/spiegel/Spiegel-SemiBoldItalic.woff") format("woff"), url("../../fonts/spiegel/Spiegel-SemiBoldItalic.ttf") format("truetype"), url("../../fonts/spiegel/Spiegel-SemiBoldItalic.svg#") format("svg");
+}
