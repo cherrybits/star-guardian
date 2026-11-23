@@ -120,6 +120,20 @@
   flex-direction: column;
   width: 800px;
   justify-content: center;
+  gap: 16px;
+}
+
+.quoted-text{
+  font-size: 32px;
+  font-style: italic;
+  font-family: "Segoe UI Light";
+  color: #524f51;
+}
+
+.quoted-person{
+  font-size: 24px;
+  font-weight: 800;
+  align-self: flex-end;
 }
 
 .footer{
