@@ -1,7 +1,14 @@
+/*combined selectors*/
+.header, .content, .container, .right-links, .banner, .about, .members, .members-profile, .members-profile-card, .members-profile-card .text,
+.quote, .action, .action-container, .action-text, .footer, body{
+  display: flex;
+}
+
+
+/*unique modifications*/
 .header{
   background-color:#2e2169;
   color: white;
-  display: flex;
   justify-content: center;
   align-items: center;
   padding: 16px;
@@ -9,27 +16,22 @@
 
 .content{
   flex: 1;
-  display: flex;
   flex-direction: column;
 }
 
 .container{
   width: 1060px;
-  display : flex;
   margin: 100px;
   justify-content: center;
 }
 
 .header .container{
-  display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0;
 }
 
 .quote .container{
-  display : flex;
-  margin: 100px;
   justify-content: center;
   flex-direction: column;
   width: 800px;
@@ -49,14 +51,12 @@
 .banner{
   background-color: #2e2263;
   color: white;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .about{
   margin-right: 40px;
-  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-self: center;
@@ -70,7 +70,6 @@
 }
 
 .members{
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -84,18 +83,15 @@
 
 .members-profile{
   margin-top: 48px;
-  display: flex;
   gap: 48px;
 }
 
 .members-profile-card{
-  display:flex;
   flex-direction: column;
 }
 
 .members-profile-card .text{
   width: 200px;
-  display: flex;
   flex-wrap: wrap;
   color: #524f51;
   margin-top: 12px;
@@ -105,7 +101,6 @@
 .quote{
   background-color: #d1c5e3;
   color: #2b292a;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -124,7 +119,6 @@
 }
 
 .action{
-  display: flex;
   justify-content: center;
 
 }
@@ -135,12 +129,10 @@
   width: 800px;
   border-radius: 8px;
   padding: 48px 80px;
-  display: flex;
   justify-content: space-between;
 }
 
 .action-text{
-  display: flex;
   flex-direction: column;
 }
 
@@ -153,7 +145,6 @@
   background-color: #625c78;
   color: white;
   padding: 24px;
-  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -163,7 +154,6 @@ body{
   margin: 0;
   min-height: 100vh;
   font-family: 'Roboto', Arial, sans-serif;
-  display: flex;
   flex-direction: column;
 }
 
