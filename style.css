@@ -7,31 +7,43 @@
   padding: 16px;
 }
 
-.header-container{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.right-links{
-  display: flex;
-  gap: 16px;
-}
-
-.content-container, .header-container{
-  width: 1060px;
-}
-
 .content{
   flex: 1;
   display: flex;
   flex-direction: column;
 }
 
-.content-container, .quote-container{
+.container{
+  width: 1060px;
   display : flex;
   margin: 100px;
   justify-content: center;
+}
+
+.header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.quote .container{
+  display : flex;
+  margin: 100px;
+  justify-content: center;
+  flex-direction: column;
+  width: 800px;
+  gap: 16px;
+}
+
+.members .container{
+  flex-direction: column;
+  margin: 60px;
+}
+
+.right-links{
+  display: flex;
+  gap: 16px;
 }
 
 .banner{
@@ -67,11 +79,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.members-container{
-  flex-direction: column;
-  margin: 60px;
 }
 
 .members-header{
@@ -115,13 +122,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.quote-container{
-  flex-direction: column;
-  width: 800px;
-  justify-content: center;
-  gap: 16px;
 }
 
 .quoted-text{
@@ -192,7 +192,7 @@ button{
   font-weight: 700;
 }
 
-button.action-button{
+.action button{
   border: 2px white solid;
 }
 
