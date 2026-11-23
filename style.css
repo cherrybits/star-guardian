@@ -108,6 +108,12 @@
   text-align: center;
 }
 
+.quote{
+  background-color: #d1c5e3;
+  color: #2b292a;
+  padding: 48px;
+}
+
 .footer{
   background-color: #625c78;
   color: white;
