@@ -7,12 +7,14 @@
   flex-direction: column;
 }
 
+.header, .container, .banner, .members, .quote, .action, .footer{
+  justify-content: center;
+}
 
 /*unique modifications*/
 .header{
   background-color:#2e2169;
   color: white;
-  justify-content: center;
   align-items: center;
   padding: 16px;
 }
@@ -24,7 +26,6 @@
 .container{
   width: 1060px;
   margin: 100px;
-  justify-content: center;
 }
 
 .header .container{
@@ -34,7 +35,6 @@
 }
 
 .quote .container{
-  justify-content: center;
   width: 800px;
   gap: 16px;
 }
@@ -50,7 +50,6 @@
 .banner{
   background-color: #2e2263;
   color: white;
-  justify-content: center;
   align-items: center;
 }
 
@@ -68,7 +67,6 @@
 }
 
 .members{
-  justify-content: center;
   align-items: center;
 }
 
@@ -95,7 +93,6 @@
 .quote{
   background-color: #d1c5e3;
   color: #2b292a;
-  justify-content: center;
   align-items: center;
 }
 
@@ -110,10 +107,6 @@
   font-size: 24px;
   font-weight: 800;
   align-self: flex-end;
-}
-
-.action{
-  justify-content: center;
 }
 
 .action-container{
@@ -135,7 +128,6 @@
   color: white;
   padding: 24px;
   align-items: center;
-  justify-content: center;
   text-align: center;
 }
 
