@@ -93,7 +93,7 @@
   flex-direction: column;
 }
 
-.members-text{
+.members-profile-card .text{
   width: 200px;
   display: flex;
   flex-wrap: wrap;
@@ -110,7 +110,7 @@
   align-items: center;
 }
 
-.quoted-text{
+.quote .text{
   font-size: 32px;
   font-style: italic;
   font-family: "Segoe UI Light";
