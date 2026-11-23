@@ -31,6 +31,7 @@
 .content-container, .quote-container{
   display : flex;
   margin: 100px;
+  justify-content: center;
 }
 
 .banner{
@@ -134,6 +135,20 @@
   font-size: 24px;
   font-weight: 800;
   align-self: flex-end;
+}
+
+.action{
+  display: flex;
+  justify-content: center;
+
+}
+
+.action-container{
+  background-color: #e660ae;
+  color: white;
+  width: 800px;
+  border-radius: 8px;
+  padding: 24px 48px;
 }
 
 .footer{
