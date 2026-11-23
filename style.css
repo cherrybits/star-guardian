@@ -28,7 +28,7 @@
   flex-direction: column;
 }
 
-.content-container{
+.content-container, .quote-container{
   display : flex;
   margin: 100px;
 }
@@ -111,7 +111,15 @@
 .quote{
   background-color: #d1c5e3;
   color: #2b292a;
-  padding: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container{
+  flex-direction: column;
+  width: 800px;
+  justify-content: center;
 }
 
 .footer{
