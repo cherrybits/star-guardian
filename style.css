@@ -69,12 +69,6 @@
   font-size: 50px;
 }
 
-.about-img{
-  width: 500px;
-  height: 250px;
-  object-fit: cover;
-}
-
 .members{
   display: flex;
   justify-content: center;
@@ -97,14 +91,6 @@
 .members-profile-card{
   display:flex;
   flex-direction: column;
-}
-
-.members-img{
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border: 3px solid #e660ae;
-  border-radius: 8px;
 }
 
 .members-text{
@@ -198,4 +184,18 @@ button{
 
 a{
   color: white;
+}
+
+.banner img{
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.members-profile-card img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid #e660ae;
+  border-radius: 8px;
 }
