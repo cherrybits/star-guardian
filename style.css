@@ -91,16 +91,17 @@
   text-align: center;
 }
 
-.quote .container{
-  width: 800px;
-}
-
-
-
 .quote{
   background-color: #d1c5e3;
   color: #2b292a;
   align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.quote .flex-container{
+  width: 800px;
+  margin: 120px;
 }
 
 .quote .text{
@@ -110,7 +111,7 @@
   color: #524f51;
 }
 
-.quoted-person{
+.quote .title{
   font-size: 24px;
   font-weight: 800;
   align-self: flex-end;
