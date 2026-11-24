@@ -63,38 +63,39 @@
 }
 
 .members .flex-container{
-  margin: 60px;
+  margin: 48px;
+}
+
+.members .title{
+  color: #2b292a;
+  font-size: 32px;
+  text-align: center;
+}
+
+.members .container{
+  align-items: flex-start;
+  gap: 48px;
+  margin: 48px;
+}
+
+.card{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.card .text{
+  color: #524f51;
+  margin-top: 12px;
+  text-align: center;
 }
 
 .quote .container{
   width: 800px;
 }
 
-.members .container{
-  margin: 60px;
-}
 
-
-
-.members-header{
-  color: #2b292a;
-  font-weight: 1000;
-  font-size: 32px;
-  text-align: center;
-}
-
-.members-profile{
-  margin-top: 48px;
-  gap: 48px;
-}
-
-.members-profile-card .text{
-  width: 200px;
-  flex-wrap: wrap;
-  color: #524f51;
-  margin-top: 12px;
-  text-align: center;
-}
 
 .quote{
   background-color: #d1c5e3;
@@ -170,7 +171,7 @@ a{
   object-fit: cover;
 }
 
-.members-profile-card img{
+.card img{
   width: 200px;
   height: 200px;
   object-fit: cover;
