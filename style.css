@@ -125,24 +125,18 @@
   color: #524f51;
 }
 
-.action{
-  display: flex;
-  justify-content: center;
-}
-
-.action .container{
+.action .container.space{
   background-color: #e660ae;
   color: white;
   width: 800px;
   border-radius: 8px;
   padding: 48px 80px;
-  justify-content: space-between;
 }
 
-.action .flex-container{
+.action .container.flex-column{
   width: 600px;
+  margin: 0;
   flex-wrap: wrap;
-  align-items: flex-start;
   gap: 10px;
 }
 
