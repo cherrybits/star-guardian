@@ -21,6 +21,10 @@
   align-items: flex-start;
 }
 
+.flex-end{
+  align-self: flex-end;
+}
+
 .h1{
   font-weight: 1000;
   font-size: 50px;
@@ -107,12 +111,9 @@
 .quote{
   background-color: #d1c5e3;
   color: #2b292a;
-  align-items: center;
-  display: flex;
-  justify-content: center;
 }
 
-.quote .flex-container{
+.quote .container{
   width: 800px;
   margin: 120px;
 }
@@ -122,11 +123,6 @@
   font-style: italic;
   font-family: "Segoe UI Light";
   color: #524f51;
-}
-
-.quote .title{
-  font-weight: 800;
-  align-self: flex-end;
 }
 
 .action{
