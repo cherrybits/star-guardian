@@ -13,8 +13,12 @@
   justify-content: space-between;
 }
 
-.content{
-  flex: 1;
+.stretch{
+  align-items: stretch;
+}
+
+.flex-start{
+  align-items: flex-start;
 }
 
 .container{
@@ -37,18 +41,20 @@
   width: auto;
 }
 
+.content.flex{
+  flex: 1;
+  gap: 0;
+}
+
 .about{
   background-color: #2e2263;
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.about .flex-container{
+.about .container.flex-column{
   flex-wrap: wrap;
   width: 500px;
-  align-items: flex-start;
+  margin: 0;
 }
 
 .title{
