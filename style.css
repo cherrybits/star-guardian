@@ -63,7 +63,7 @@
   width: auto;
 }
 
-.content.flex{
+.content{
   flex: 1;
   gap: 0;
 }
@@ -144,7 +144,6 @@
   background-color: #625c78;
   color: white;
   padding: 24px;
-  align-items: center;
   text-align: center;
 }
 
