@@ -21,6 +21,24 @@
   align-items: flex-start;
 }
 
+.h1{
+  font-weight: 1000;
+  font-size: 50px;
+}
+.h2{
+  font-weight: 1000;
+  font-size: 32px;
+}
+
+.bold, .extra-bold{
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.extra-bold{
+  font-weight: 800;
+}
+
 .container{
   width: 100%;
   max-width: 1060px;
@@ -57,44 +75,27 @@
   margin: 0;
 }
 
-.title{
-  font-weight: 600;
-  font-size: 24px;
-}
-
-.about .title{
-  font-weight: 1000;
-  font-size: 50px;
-}
-
-.members{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.members .flex-container{
+.members .container.flex-column{
   margin: 48px;
 }
 
-.members .title{
+.members .h2{
   color: #2b292a;
-  font-weight: 1000;
-  font-size: 32px;
   text-align: center;
 }
 
-.members .container{
+.profiles{
   align-items: flex-start;
   gap: 48px;
-  margin: 48px;
+  margin: 32px;
 }
 
 .card{
   width: 200px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+}
+
+.card.flex{
+  gap: 0;
 }
 
 .card .text{
